@@ -1,6 +1,5 @@
-nama_petani,nama_komoditas,berat_hasil,asal_kota  
-alif,jagung,30,bondowoso
-dika,sawi,40,jember
-faiq,kpi,30,tuban
-rangga,teh,10,binjai
-alif
+nama_petani,nama_komoditas,berat_hasil,asal_kota
+alif,padi,100.0,bondowoso
+faiq,kpi,30.0,tuban
+fariz,teh,2.0,gresik
+dika,cengkeh,0.0,jakarta

@@ -1,4 +1,4 @@
-# import pandas as pd, os
+import pandas as pd, os
 
 # df = pd.read_csv(os.path.join(os.getcwd(), "data_panen.csv"))
 # df1 = df[df.nama_petani == "alif"]
@@ -10,7 +10,12 @@
 # locale.currency( 100000000 )
 # print(locale.currency( 100000000, grouping=True ))
 
-def a():
-    return "hello"
+# def a():
+#     return "hello"
 
-print(a())
+# print(a())
+
+df = pd.read_csv("data_panen.csv")
+print()
+
+print(df.iloc[1, 3])
