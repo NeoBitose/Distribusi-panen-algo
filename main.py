@@ -256,8 +256,6 @@ def hapus_hp():
         noindex = int(input("\nMasukkan nomor data yang ingin dihapus : "))
 
         df.iloc[int(noindex), 2] = 0
-        # df.drop([noindex], axis=0, inplace=True)
-        # df.index = range(0, len(df))
         df.to_csv(file_panen, index=False)
 
         df = pd.read_csv(file_panen)
