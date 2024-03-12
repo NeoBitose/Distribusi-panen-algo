@@ -23,4 +23,4 @@ jobs:
         pip install -r requirements.txt  # Ganti dengan nama file requirements Anda jika perlu
 
     - name: Run Python script
-      run: python path/to/your_script.py  # Ganti dengan jalur menuju skrip Python Anda
+      run: https://github.com/NeoBitose/Distribusi-panen-algo/blob/main/main.py  # Ganti dengan jalur menuju skrip Python Anda
